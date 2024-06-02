@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.5'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
+
+ <!-- Realphones -->
+ <Plugin>
+  <Info>
+   <Type>VST3</Type>
+   <Name>Realphones</Name>
+   <Binary>/home/neg/.vst3/yabridge/Realphones.vst3</Binary>
+   <Label>Realphones</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0xd</Options>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Reference Monitoring - Phones</CurrentProgramName>
+
+   <Chunk>
+VkMyIRcFAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8VlNUM1BsdWdpblN0YXRlPjxJQ29tcG9uZW50PjkwMC5pLmhUa0VGYXZn
+MWF0VTFiZi5rYmtNV1l6QWhRb3dWWUpuZmNrSTJibzhsYTUuUkxKZlRZZ1FGYm44bGFrTVdSUm9DSFVNV1l4QUJSa0VGWXZnMWF0VTFiZU1UY3lRMmFzb2ZU
+dThWYUlJa05mLlNMdi54VHpVR1lvOEZIeERTUGZ6QkhTUVdjamsxYWZEeldTVUZjZkxESHMuaFFnSUdIRmtWWXJRbEJTQVdZZ3NWWXhNV1JSb0NIdi5DTGZQ
+MVRPNFRSUUFoUGd3Vlh0TVZZajgwVHpVR1lvOEZIVEVsYm1VRmNKVFRYeWttVHU4VmE1LlJZZ01XZHg4MWFzOFJMMC5DSFJVbFlrSVdZdE1WWWZ6emF0a0Zj
+dUlXWnRjMVdCRUZhZzQxWGtRRkhSVTFidjhsYXlVMUt2LlNMZi5FWnU0Vll5b1BQc0lWWkU0Vlhod1ZZam9DSHduUFBzSVZaazQxWGtvQ0h2bnZQdUltYmtN
+RmNvOGxhNS5STHYuaUJDOGxieFUxWHprMWF0VWphZ0lGYWtRbE5mRGlCRFVsYXlrRmM0b0NIMlRpQkRVbGF5a0ZjNFVqYWdJRmFrUWxOZkRpQkVFMWI0SWpi
+b2NGWno0Vll5TW1OZi5pQkVFMWI0TXpheElXWWlRV1p1NGxOZkRDTHZuUFFnTVdkRTRsY29JMmF0MFZZdFFtTmZEQ0x2blBRZ01XZFI4MWFzVWphZ0lGYWtR
+bE5mRGlCRU0xYXRVamFnSUZha1FsTmYuaUJFRVdRdEVsWHJVRlk1LkJMSlRUYkhrMVluY1RYbzRsTmYuaUJFRUdTdWMyUWdrbGE1LkJMSlRUYk1rRllHRVZa
+dG9DSHZuLlJSUWtRRTRWWGh3Vllqb0NId24uUlJRa1FGODFYME1tTmZEQ0x2blBSdFFGVGdRbE5mLmlCTGtWYUU0Vlhod1ZZam9DSHZuLlNvTUdjazRsUXJR
+bVBnNEZZNS5oTHYuaUJMazFielVsYUZ3RmNNOEZZa29DSHkuQ0xKdlRaeVFXWXRJVVltMGxOZkRDTHZuLlNvTUdjazRGVTRBV1k1LkJMSjdUY3pBV2N6SVRY
+ckVsYWlVbE5mLmlCT1VHY3ZVR2NMVWxja3dsTmZ6Uk50WENMdi5DTHZMQ053UGlNNGJpTDJuLlRuOGxha01XUXRFbFhyVUZZNS5STEoua2JrTTJiMElXWTUu
+QkxKLmtia00yYjBJV1lFNFZYaHdWWWpvQ0h2bi5UeDhWUWdNV2Q1LlJMSkhVWXlBMmF0TVdZNS5STHYuaUJSVTFidjhsYXlVVlF0RWxYclVGWTUuQkxKTFVa
+bTRWWHpVbWJrb0NIdm52VG9jbGFnUVdjeFVWUXRFbFhyVUZZNS5CTEpMRWJnTVZZRTRWWGh3Vllqb0NIdm52VHZVVlhxVWxiV2tGWXpnbE5makNMSmJVWHgw
+RmNub0NIdm52VWdJV2F6Z1ZRdEVsWHJVRlk1LkJMLi4uLi4uLi4uLmZSVU1UUVBJV1oxRUZja1FUWHpFRi5BRGZQNEFXWHlNRy5BRHYuLnpBLi4uLi4uLi4u
+SlUwUEVBa2JvWVdYelVGUWdRV1g8L0lDb21wb25lbnQ+PC9WU1QzUGx1Z2luU3RhdGU+AA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>mpv:output_FL</Source>
+   <Target>Carla:Realphones:input_1</Target>
+  </Connection>
+  <Connection>
+   <Source>mpv:output_FR</Source>
+   <Target>Carla:Realphones:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla:Realphones:output_1</Source>
+   <Target>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958):playback_FL</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla:Realphones:output_2</Source>
+   <Target>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958):playback_FR</Target>
+  </Connection>
+  <Connection>
+   <Source>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958):monitor_FL</Source>
+   <Target>pwvucontrol-peak-detect:input_MONO</Target>
+  </Connection>
+  <Positions>
+   <Position x1="1094" y1="402">
+    <Name>Carla</Name>
+   </Position>
+   <Position x1="279" y1="802" x2="1209" y2="458">
+    <Name>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958)</Name>
+   </Position>
+   <Position x1="72" y1="683" x2="897" y2="198">
+    <Name>Midi-Bridge</Name>
+   </Position>
+   <Position x1="932" y1="928">
+    <Name>pwvucontrol-peak-detect</Name>
+   </Position>
+   <Position x1="759" y1="467">
+    <Name>mpv</Name>
+   </Position>
+   <Position x1="1333" y1="736">
+    <Name>pwvucontrol-peak-detect-526</Name>
+   </Position>
+  </Positions>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

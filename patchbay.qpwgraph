@@ -1,0 +1,14 @@
+<!DOCTYPE patchbay>
+<patchbay name="patchbay" version="0.7.2">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Carla" port="Carla:LSP Parametric Equalizer x32 Stereo:Output R"/>
+   <input node="ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958)" port="ADI-2/4 Pro SE (53011083):playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Carla" port="Carla:LSP Parametric Equalizer x32 Stereo:Output L"/>
+   <input node="ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958)" port="ADI-2/4 Pro SE (53011083):playback_FL"/>
+  </item>
+ </items>
+</patchbay>
+
