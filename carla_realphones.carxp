@@ -42,7 +42,7 @@ b2NGWno0Vll5TW1OZi5pQkVFMWI0TXpheElXWWlRV1p1NGxOZkRDTHZuUFFnTVdkRTRsY29JMmF0MFZZ
 bE5mRGlCRU0xYXRVamFnSUZha1FsTmYuaUJFRVdRdEVsWHJVRlk1LkJMSlRUYkhrMVluY1RYbzRsTmYuaUJFRUdTdWMyUWdrbGE1LkJMSlRUYk1rRllHRVZa
 dG9DSHZuLlJSUWtRRTRWWGh3Vllqb0NId24uUlJRa1FGODFYME1tTmZEQ0x2blBSdFFGVGdRbE5mLmlCTGtWYUU0Vlhod1ZZam9DSHZuLlNvTUdjazRsUXJR
 bVBnNEZZNS5oTHYuaUJMazFielVsYUZ3RmNNOEZZa29DSHkuQ0xKdlRaeVFXWXRJVVltMGxOZkRDTHZuLlNvTUdjazRGVTRBV1k1LkJMSjdUY3pBV2N6SVRY
-ckVsYWlVbE5mLmlCT1VHY3ZVR2NMVWxja3dsTmZ6Uk50WENMdi5DTHZMQ053UGlNNGJpTDJuLlRuOGxha01XUXRFbFhyVUZZNS5STEoua2JrTTJiMElXWTUu
+ckVsYWlVbE5mLmlCT1VHY3ZVR2NMVWxja3dsTmZ6Ukx6M0JONGpTTjRqaU13ZlNNeS5pTDJuLlRuOGxha01XUXRFbFhyVUZZNS5STEoua2JrTTJiMElXWTUu
 QkxKLmtia00yYjBJV1lFNFZYaHdWWWpvQ0h2bi5UeDhWUWdNV2Q1LlJMSkhVWXlBMmF0TVdZNS5STHYuaUJSVTFidjhsYXlVVlF0RWxYclVGWTUuQkxKTFVa
 bTRWWHpVbWJrb0NIdm52VG9jbGFnUVdjeFVWUXRFbFhyVUZZNS5CTEpMRWJnTVZZRTRWWGh3Vllqb0NIdm52VHZVVlhxVWxiV2tGWXpnbE5makNMSmJVWHgw
 RmNub0NIdm52VWdJV2F6Z1ZRdEVsWHJVRlk1LkJMLi4uLi4uLi4uLmZSVU1UUVBJV1oxRUZja1FUWHpFRi5BRGZQNEFXWHlNRy5BRHYuLnpBLi4uLi4uLi4u
@@ -53,11 +53,11 @@ SlUwUEVBa2JvWVdYelVGUWdRV1g8L0lDb21wb25lbnQ+PC9WU1QzUGx1Z2luU3RhdGU+AA==
 
  <ExternalPatchbay>
   <Connection>
-   <Source>mpv:output_FL</Source>
+   <Source>loopback-5740-30:output_FL</Source>
    <Target>Carla:Realphones:input_1</Target>
   </Connection>
   <Connection>
-   <Source>mpv:output_FR</Source>
+   <Source>loopback-5740-30:output_FR</Source>
    <Target>Carla:Realphones:input_2</Target>
   </Connection>
   <Connection>
@@ -69,27 +69,34 @@ SlUwUEVBa2JvWVdYelVGUWdRV1g8L0lDb21wb25lbnQ+PC9WU1QzUGx1Z2luU3RhdGU+AA==
    <Target>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958):playback_FR</Target>
   </Connection>
   <Connection>
-   <Source>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958):monitor_FL</Source>
-   <Target>pwvucontrol-peak-detect:input_MONO</Target>
+   <Source>Music Player Daemon/mpd.PipeWire:output_FL</Source>
+   <Target>carla-loopback:playback_FL</Target>
+  </Connection>
+  <Connection>
+   <Source>Music Player Daemon/mpd.PipeWire:output_FR</Source>
+   <Target>carla-loopback:playback_FR</Target>
   </Connection>
   <Positions>
-   <Position x1="1094" y1="402">
+   <Position x1="265" y1="543">
     <Name>Carla</Name>
    </Position>
-   <Position x1="279" y1="802" x2="1209" y2="458">
+   <Position x1="0" y1="744">
+    <Name>loopback-5740-30</Name>
+   </Position>
+   <Position x1="1209" y1="453" x2="775" y2="685">
     <Name>ADI-2/4 Pro SE (53011083) Digital Stereo (IEC958)</Name>
    </Position>
-   <Position x1="72" y1="683" x2="897" y2="198">
+   <Position x1="951" y1="511">
+    <Name>carla-loopback</Name>
+   </Position>
+   <Position x1="447" y1="198" x2="897" y2="198">
     <Name>Midi-Bridge</Name>
    </Position>
-   <Position x1="932" y1="928">
-    <Name>pwvucontrol-peak-detect</Name>
+   <Position x1="330" y1="255" x2="329" y2="197">
+    <Name>BLE MIDI 1</Name>
    </Position>
-   <Position x1="759" y1="467">
-    <Name>mpv</Name>
-   </Position>
-   <Position x1="1333" y1="736">
-    <Name>pwvucontrol-peak-detect-526</Name>
+   <Position x1="0" y1="353">
+    <Name>Music Player Daemon/mpd.PipeWire</Name>
    </Position>
   </Positions>
  </ExternalPatchbay>
